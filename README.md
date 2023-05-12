@@ -14,7 +14,7 @@ gantt
     Formal response            : milestone, m0, 2023-06-21, 1d
     section Submission deadline
     Soft deadline            : milestone, m1, 2023-10-18, 1d
-    Hard deadline            : milestone, m1, 2023-11-08, 1d
+    <!-- Hard deadline            : milestone, m1, 2023-11-08, 1d -->
     section Decision 1
     Decision letter          : milestone, m1, 2023-11-12, 1d
     section Revisions
