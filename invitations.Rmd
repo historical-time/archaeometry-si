@@ -1,7 +1,6 @@
 ---
 title: "Invitation letters for the Archaeometry Special Issue"
 output: word_document
-date: '2023-04-29'
 ---
 
 ```{r, echo = FALSE}
@@ -88,8 +87,8 @@ inv.papers.df <- data.frame(
             "your work on assessing chronology through a multi-paradigm approach (combining radiocarbon dates, stratigraphy, dendrochronology, Allen temporal logics) in a context of reusability of methods and data (FAIR)",
             "your recent work on spatio-temporal frameworks for managing archeological data"
             ),
-  Formal.response = c("June 21, 2023"),
-  Soft.deadline = c("October 18, 2023")
+  Formal.response = c("Monday June 17, 2023"),
+  Soft.deadline = c("Friday November 17, 2023")
 )
 
 View(inv.papers.df[ , c(2, 3)])
@@ -120,6 +119,7 @@ Main information should be: text co
 https://onlinelibrary.wiley.com/toc/14754754/2022/64/S1
 
 The final **manuscript submission deadline is ${inv.papers.df[i, 'Soft.deadline']}**.
+The provisional publication date of the special issue is July 15, 2024.
 
 We hope you will consider contributing to this edition.
  
