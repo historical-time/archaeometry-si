@@ -31,7 +31,8 @@ inv.papers.df <- data.frame(
             "zdfalk@gmail.com",
             "zac.mcivor@otago.ac.nz, im67@students.waikato.ac.nz",
             "xavier.rodier@univ-tours.fr",
-            "vasilandreaki@hotmail.gr, JuanAntonio.Barcelo@uab.cat"
+            "vasilandreaki@hotmail.gr, JuanAntonio.Barcelo@uab.cat",
+            "alberto.belussi@univr.it, sara.migliorini@univr.it"
             ),
   name = c("Dr Enrico Crema",
            "Pr Christopher Bronk Ramsey",
@@ -57,7 +58,8 @@ inv.papers.df <- data.frame(
            "Dr David Falk",
            "Zac McIvor",
            "Dr Xavier Rodier",
-           "Dr Vasiliki Andreaki, Pr Juan Anton Barceló"
+           "Dr Vasiliki Andreaki, Pr Juan Anton Barceló", 
+           "Pr Alberto Belussi, Pr Sara Migliorini"
            ),
   topic = c("your recent researches on **temporal uncertainty** (aoristic analysis, ...)",
             "your recent researches on **Bayesian modelling of radiocarbon dates**",
@@ -83,7 +85,8 @@ inv.papers.df <- data.frame(
             "your work on deterministic chronological hypothesis testing and automated chronology building. We would be interested in a review of existing software for such aims, such as GroundHog, ChronoLog, etc...",
             "your recent processual work on chronological network analysis, compared with post-processual approaches (cf. J. Fabian's book 'Time and the Other') in indigeneous contexts",
             "your work on applying the **Peuquet's triad** to archaeological records"
-            "your work on assessing chronology through a multi-paradigm approach (combining radiocarbon dates, stratigraphy, dendrochronology, Allen temporal logics) in a context of reusability of methods and data (FAIR)"
+            "your work on assessing chronology through a multi-paradigm approach (combining radiocarbon dates, stratigraphy, dendrochronology, Allen temporal logics) in a context of reusability of methods and data (FAIR)",
+            "your recent work on spatio-temporal frameworks for managing archeological data"
             ),
   Formal.response = c("June 21, 2023"),
   Soft.deadline = c("October 18, 2023")
