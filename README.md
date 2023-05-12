@@ -29,14 +29,10 @@ gantt
     Issue published          : milestone, m2, 2024-05-29, 1d
 ```
 
-# Dataset samples
+# Temporal data samples
 > Use of standards to share dates between different research projects
 
-Authors are asked to share samples of their temporal data using standardised formats, using:
-- **EDTF**[^1] isostandard to record an event or a duration
-- **CIDOC-CRM**[^2] to record relations between events or durations, actors and places can be modelled with the CIDOC-CRM
-
-For example: 
+In order line-up heterogeneous time data in a FAIR perspective[^4], we invite authors to deposit samples of their data on GitHub. The aim is to map chronologies using the CIDOC-CRM[^2].
 
 <p align="center">
 
@@ -46,9 +42,27 @@ For example:
 
 This CIDOC representation of Thera eruptionis build upon this list of nodes ([thera-cidoc-data-nodes.tsv](https://github.com/historical-time/data-samples/blob/main/cidoc-crm/thera-cidoc-data-nodes.tsv)) and edges ([thera-cidoc-data-edges.tsv](https://github.com/historical-time/data-samples/blob/main/cidoc-crm/thera-cidoc-data-edges.tsv))[^3]. 
 
-* It gathers different interpretation of the Thera-Santorini eruption datation by Burnouf, Long Perrier, etc.
+* It gathers different interpretation of the Thera-Santorini volcano eruption datation by Burnouf, Long Perrier, etc.
 * It records dates in a EDTF format (entities: E2, E5 and E52)
 
+For each archaeological event or duration, the minimal required information for each sample are the Peuquet's triad dimensions (What, When, Where):
+
+| What | When | Where |
+|------|------|-------|
+| Thera-Santorini volcano eruption | -2000/-1500 | Egean sea |
+
+## Dimensions
+
+### What
+
+### When
+
+The format should be, as possible the **EDTF**[^1] isostandard to record an event or a duration
+
+### Where
+
+
 [^1]: Extended Time and date format (EDTF, ISO 8601-2:2019) is the isostandard for dates. See: http://www.loc.gov/standards/datetime/
-[^2]: CIDOC-Conceptual Reference Model (CIDOC-CRM, v7.1.2 *under review* ISO) is a model for describing and organising cultural heritage information. It is extended to archaeological data with the [CRMarchaeo](https://www.cidoc-crm.org/crmarchaeo/home-3). See: https://www.cidoc-crm.org/
+[^2]: CIDOC-Conceptual Reference Model (CIDOC-CRM, v7.1.2 *under review* ISO) is a model for describing and organising cultural heritage information. It allows to record relations between events or durations, actors and places can be modelled with the CIDOC-CRM. It is extended to archaeological data with the [CRMarchaeo](https://www.cidoc-crm.org/crmarchaeo/home-3). See: https://www.cidoc-crm.org/
 [^3]: The original dataset is a XLSX file, [data.xlsx](https://github.com/eamena-project/eamena-arches-dev/blob/main/data/lod/data.xlsx) that can be downloaded.
+[^4]: Findable, Accessible, Interoperable, Reusable
