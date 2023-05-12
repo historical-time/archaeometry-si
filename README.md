@@ -10,23 +10,23 @@ gantt
     title Archaeometry Special Issue
     dateFormat  YYYY-MM-DD
     section Papers
-    Formal invite              : milestone, m0, 2023-05-30, 1d
-    Formal response            : milestone, m0, 2023-06-21, 1d
+    Formal invite              : milestone, m0, 2023-05-17, 1d
+    Formal response            : milestone, m0, 2023-06-17, 1d
     section Submission deadline
-    Deadline            : milestone, m1, 2023-10-18, 1d %% Soft deadline
-    %% Hard deadline            : milestone, m1, 2023-11-08, 1d %% Hard deadline
+    Deadline                   : milestone, m1, 2023-11-17, 1d %% Soft deadline
+    %% Hard deadline           : milestone, m1, 2023-11-30, 1d %% Hard deadline
     section Decision 1
-    Decision letter          : milestone, m1, 2023-11-12, 1d
+    Decision letter            : milestone, m1, 2023-11-12, 1d
     section Revisions
-    Submission of revisions	 : milestone, m1, 2024-03-12, 1d
+    Submission of revisions	   : milestone, m1, 2024-03-12, 1d
     section Decision Final
-    Final decision           : milestone, m2, 2024-04-23, 1d
+    Final decision             : milestone, m2, 2024-04-23, 1d
     section Proofs
-    Proofs to authors        : milestone, m2, 2024-05-08, 1d
-    Revised proofs           : milestone, m2, 2024-05-22, 1d
+    Proofs to authors          : milestone, m2, 2024-05-08, 1d
+    Revised proofs             : milestone, m2, 2024-05-22, 1d
     section Issue
-    Issue compilation        : milestone, m2, 2024-05-23, 1d
-    Issue published          : milestone, m2, 2024-05-29, 1d
+    Issue compilation          : milestone, m2, 2024-05-23, 1d
+    Issue published            : milestone, m2, 2024-05-29, 1d
 ```
 
 # Temporal data samples
