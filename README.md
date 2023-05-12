@@ -21,17 +21,18 @@ gantt
     Deadline                         : milestone, m1, 2023-11-17, 1d %% Soft deadline
     %% Hard deadline                 : milestone, m1, 2023-11-30, 1d %% Hard deadline
     section Reviewing
-    Submission of reviews	         : milestone, m1, 2024-02-29, 1d
+    Submission of reviews to editors   : milestone, m1, 2024-01-31, 1d
     section 1st Editor decision
-    Editor decision                  : milestone, m2, 2024-03-15, 1d
+    Editor decision                     : milestone, m2, 2024-02-16, 1d
+    Reviews and decision sent to authors: milestone, m2, 2024-02-16, 1d
     section Revision
-    Deadline for revised papers      : milestone, m2, 2024-05-31, 1d
+    Deadline for revised papers      : milestone, m2, 2024-04-28, 1d
     section Proofs
-    Proofs to authors                : milestone, m2, 2024-06-14, 1d
-    Revised proofs                   : milestone, m2, 2024-06-28, 1d
+    Proofs to authors                : milestone, m2, 2024-05-17, 1d
+    Revised proofs                   : milestone, m2, 2024-05-31, 1d
     section Issue
-    Issue compilation                : milestone, m2, 2024-07-02, 1d
-    Issue published                  : milestone, m2, 2024-07-15, 1d
+    Issue compilation                : milestone, m2, 2024-06-03, 1d
+    Issue published                  : milestone, m2, 2024-06-17, 1d
 ```
 
 # Temporal data samples
