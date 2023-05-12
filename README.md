@@ -5,6 +5,7 @@
 
 ## Timeline
 
+```mermaid
 gantt
     title Archaeometry Special Issue
     dateFormat  YYYY-MM-DD
@@ -31,6 +32,7 @@ gantt
     section Issue
     Issue compilation                : milestone, m2, 2024-07-02, 1d
     Issue published                  : milestone, m2, 2024-07-15, 1d
+```
 
 # Temporal data samples
 > Use of standards to share dates between different research projects
