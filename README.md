@@ -32,18 +32,8 @@ gantt
 # Temporal data samples
 > Use of standards to share dates between different research projects
 
-In order line-up heterogeneous time data in a FAIR perspective[^4], we invite authors to deposit samples of their data on GitHub. The aim is to map chronologies using the CIDOC-CRM[^2].
+In order line-up heterogeneous time data in a FAIR perspective[^4], we invite authors to deposit samples of their data on GitHub. The aim is to map chronologies using the CIDOC-CRM.
 
-<p align="center">
-
-<img src="https://github.com/historical-time/data-samples/blob/main/cidoc-crm/example-thera.png" width="900"><br>
-<em>A CIDOC-CRM example for the dating of the Thera-Santorini volcano eruption ([HTML widget](https://historical-time.github.io/caa23/www/thera-cidoc-graph.html) screenshot)</em>
-</p>
-
-This CIDOC representation of Thera eruptionis build upon this list of nodes ([thera-cidoc-data-nodes.tsv](https://github.com/historical-time/data-samples/blob/main/cidoc-crm/thera-cidoc-data-nodes.tsv)) and edges ([thera-cidoc-data-edges.tsv](https://github.com/historical-time/data-samples/blob/main/cidoc-crm/thera-cidoc-data-edges.tsv))[^3]. 
-
-* It gathers different interpretation of the Thera-Santorini volcano eruption datation by Burnouf, Long Perrier, etc.
-* It records dates in a EDTF format (entities: E2, E5 and E52)
 
 For each archaeological event or duration, the minimal required information for each sample are the Peuquet's triad dimensions (What, When, Where):
 
@@ -60,6 +50,21 @@ For each archaeological event or duration, the minimal required information for 
 The format should be, as possible the **EDTF**[^1] isostandard to record an event or a duration
 
 ### Where
+
+## CIDOC-CRM
+
+CIDOC-CRM[^2]
+
+<p align="center">
+
+<img src="https://github.com/historical-time/data-samples/blob/main/cidoc-crm/example-thera.png" width="900"><br>
+<em>A CIDOC-CRM example for the dating of the Thera-Santorini volcano eruption ([HTML widget](https://historical-time.github.io/caa23/www/thera-cidoc-graph.html) screenshot)</em>
+</p>
+
+This CIDOC representation of Thera eruptionis build upon this list of nodes ([thera-cidoc-data-nodes.tsv](https://github.com/historical-time/data-samples/blob/main/cidoc-crm/thera-cidoc-data-nodes.tsv)) and edges ([thera-cidoc-data-edges.tsv](https://github.com/historical-time/data-samples/blob/main/cidoc-crm/thera-cidoc-data-edges.tsv))[^3]. 
+
+* It gathers different interpretation of the Thera-Santorini volcano eruption datation by Burnouf, Long Perrier, etc.
+* It records dates in a EDTF format (entities: E2, E5 and E52)
 
 
 [^1]: Extended Time and date format (EDTF, ISO 8601-2:2019) is the isostandard for dates. See: http://www.loc.gov/standards/datetime/
