@@ -9,7 +9,6 @@
 gantt
     title Archaeometry Special Issue
     dateFormat  YYYY-MM-DD
-<<<<<<< HEAD
     section Papers
     Formal invite              : milestone, m0, 2023-05-17, 1d
     Formal response            : milestone, m0, 2023-06-17, 1d
@@ -28,7 +27,6 @@ gantt
     section Issue
     Issue compilation          : milestone, m2, 2024-05-23, 1d
     Issue published            : milestone, m2, 2024-05-29, 1d
-=======
     section Invited Papers
     Formal invite                    : milestone, m0, 2023-05-17, 1d
     Formal response                  : milestone, m0, 2023-06-17, 1d
@@ -52,7 +50,6 @@ gantt
     section Issue
     Issue compilation                : milestone, m2, 2024-07-02, 1d
     Issue published                  : milestone, m2, 2024-07-15, 1d
->>>>>>> 68e06ee9642b17e563e274fa6157c2fec7b01285
 ```
 
 # Temporal data samples
