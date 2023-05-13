@@ -1,6 +1,28 @@
 # Archaeometry Special Issue
 > Publication of an Archaeometry Special Issue on Chronological Modeling
 
+## Covered fields
+
+- [x] stratigraphy
+- [x] age-depth
+- [x] bayesian
+- [x] seriation
+- [x] dendrochronologie
+- [x] C14
+- [x] archaeomagnetism
+- [x] TL
+- [x] aoristic
+- [x] uncertainty
+- [x] chronological networks
+- [x] CO, chronographie
+- [x] Allen
+- [x] Knight & Ma
+- [x] EDTF
+- [x] CIDOC-CRM
+- [x] LOTD
+- [ ] phylogenetic & cultural transmission
+- [ ] diffusion
+
 [Chronological domain list](https://github.com/historical-time/caa23/issues/5)
 
 ## Timeline

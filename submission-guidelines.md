@@ -4,7 +4,7 @@ Thank you for your interest in our Archaeometry special online issue on Chronolo
 
 All submissions should be made online via the Archeometry Scholar One portal at https://mc.manuscriptcentral.com/arch. If you do not have an account it is very easy to set one up. Please use your ORCID if possible.
 
-Papers for the Chronological Modelling special issue should be between 4,000 and  9,000 words. As this is an online special issue, you can include as many additional files such as figures, tables, maps and appendices. Any images which are part of the main paper should be submitted as individual files and not included in the main document, use the captions to show where they should be placed in the published paper. These files should all be submitted in an editable format so that they can be resized to fit the published paper. This includes `.doc`, `.docx`, `.xls`, `.xlsx`, `.jpg`, `.rtf`, `.tex` but should not include PDFs.
+Papers for the Chronological Modelling special issue should be between 4,000 and 9,000 words. As this is an online special issue, you can include as many additional files such as figures, tables, maps and appendices. Any images which are part of the main paper should be submitted as individual files and not included in the main document, use the captions to show where they should be placed in the published paper. These files should all be submitted in an editable format so that they can be resized to fit the published paper. This includes `.doc`, `.docx`, `.xls`, `.xlsx`, `.jpg`, `.rtf`, `.tex` but should not include PDFs.
 
 Supplementary material which does not need to be typeset or edited can be in any format including PDFs and audio and video files.
 
@@ -17,3 +17,4 @@ Papers should be submitted in the first instance by  Insert date. After reviewin
 
 The special issue is scheduled for April 2024?  However, papers will be published in Early View as they are accepted and are then a published citable paper.
 
+... Published along the way
