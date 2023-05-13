@@ -63,15 +63,9 @@ If the archeological event has a relative chronology, i.e. is dated relatively t
 | What | When | Where |
 |------|------|-------|
 | Thera-Santorini volcano eruption | *before* Minoean palace collapse | Egean sea |
-| Minoean palace collapse | 1500 | Egean sea |
+| Minoean palace collapse | -1450 | Egean sea |
 
-### What
-
-### When
-
-The format should be, as possible, the [EDTF](https://github.com/historical-time/archaeometry-si#edtf) isostandard to record an event or a duration
-
-### Where
+In both cases the format for temoral data (*When*) should be, as possible, the [EDTF](https://github.com/historical-time/archaeometry-si#edtf)
 
 ## Standards and isostandards
 
@@ -81,6 +75,7 @@ Allen's, CIDOC CRM
 
 ### EDTF
 
+ isostandard to record an event or a duration
 EDTF[^1]
 ### CIDOC-CRM
 
