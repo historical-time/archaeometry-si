@@ -1,8 +1,13 @@
 # Archaeometry Special Issue
 > Publication of an Archaeometry Special Issue on Chronological Modeling
 
-- time table
-- data samples
+---
+<center> 🚧 work in progress 🚧 </center>
+---
+
+- [time table](https://github.com/historical-time/archaeometry-si#timeline)
+- [data samples](https://github.com/historical-time/archaeometry-si#data-samples)
+- [standards and isostandards](https://github.com/historical-time/archaeometry-si#standards-and-isostandards)
 
 ## Timeline
 
@@ -39,24 +44,35 @@ gantt
 ## Data samples
 > Use of standards to share dates between different research projects
 
-In order line-up heterogeneous time data in a FAIR perspective[^4], we invite authors to deposit samples of their data on GitHub. The aim is to map chronologies using the CIDOC-CRM.
+In order line-up heterogeneous time data in a FAIR perspective[^4], we invite authors to deposit samples of their data on GitHub. The aim is to map chronologies using the [CIDOC-CRM](https://github.com/historical-time/archaeometry-si#cidoc-crm).
 
 
-For each archaeological event or duration, the minimal required information for each sample are the Peuquet's triad dimensions (What, When, Where):
+For each archaeological event or duration, dated by **absolute chronology**, the minimal required information for each sample are the Peuquet's triad dimensions (What, When, Where):
 
 | What | When | Where |
 |------|------|-------|
 | Thera-Santorini volcano eruption | -2000/-1500 | Egean sea |
 
+If the archeological event has a relative chronology, i.e. is dated relatively to another event, this relationship should be mentionned using temporal logic:
+
+| What | When | Where |
+|------|------|-------|
+| Thera-Santorini volcano eruption | *before* Minoean palace collapse | Egean sea |
+| Minoean palace collapse | 1500 | Egean sea |
+
 ### What
 
 ### When
 
-The format should be, as possible, the EDTF isostandard to record an event or a duration
+The format should be, as possible, the [EDTF](https://github.com/historical-time/archaeometry-si#edtf) isostandard to record an event or a duration
 
 ### Where
 
 ## Standards and isostandards
+
+### Temporal logic
+
+Allen's, CIDOC CRM
 
 ### EDTF
 
