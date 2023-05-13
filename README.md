@@ -1,6 +1,3 @@
-# Archaeometry Special Issue
-> Publication of an Archaeometry Special Issue on Chronological Modeling
-
 ---
 
 <p align="center"> 
@@ -8,6 +5,10 @@
 </p>
 
 ---
+
+# Archaeometry Special Issue
+> Publication of an Archaeometry Special Issue on Chronological Modeling
+
 
 - [time table](https://github.com/historical-time/archaeometry-si#timeline)
 - [data samples](https://github.com/historical-time/archaeometry-si#data-samples)
