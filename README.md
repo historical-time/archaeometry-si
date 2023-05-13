@@ -2,7 +2,9 @@
 > Publication of an Archaeometry Special Issue on Chronological Modeling
 
 ---
+
 <center> 🚧 work in progress 🚧 </center>
+
 ---
 
 - [time table](https://github.com/historical-time/archaeometry-si#timeline)
