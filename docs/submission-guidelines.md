@@ -16,5 +16,3 @@ Your institution may already have an agreement in place which covers your paperâ
 Papers should be submitted in the first instance by  Insert date. After reviewing you will be asked for any revisions that have been advised and should submit these as soon as possible.
 
 The special issue is scheduled for April 2024?  However, papers will be published in Early View as they are accepted and are then a published citable paper.
-
-... Published along the way
