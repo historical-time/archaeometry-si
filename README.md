@@ -3,7 +3,11 @@
 
 ---
 
-<center> 🚧 work in progress 🚧 </center>
+<p align="center"> 
+
+🚧 README page under construction 🚧 
+
+</p>
 
 ---
 
