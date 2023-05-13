@@ -1,29 +1,8 @@
 # Archaeometry Special Issue
 > Publication of an Archaeometry Special Issue on Chronological Modeling
 
-## Covered fields
-
-- [x] stratigraphy
-- [x] age-depth
-- [x] bayesian
-- [x] seriation
-- [x] dendrochronologie
-- [x] C14
-- [x] archaeomagnetism
-- [x] TL
-- [x] aoristic
-- [x] uncertainty
-- [x] chronological networks
-- [x] CO, chronographie
-- [x] Allen
-- [x] Knight & Ma
-- [x] EDTF
-- [x] CIDOC-CRM
-- [x] LOTD
-- [ ] phylogenetic & cultural transmission
-- [ ] diffusion
-
-[Chronological domain list](https://github.com/historical-time/caa23/issues/5)
+- time table
+- data samples
 
 ## Timeline
 
@@ -57,7 +36,7 @@ gantt
     Issue published                  : milestone, m2, 2024-06-17, 1d
 ```
 
-# Temporal data samples
+## Data samples
 > Use of standards to share dates between different research projects
 
 In order line-up heterogeneous time data in a FAIR perspective[^4], we invite authors to deposit samples of their data on GitHub. The aim is to map chronologies using the CIDOC-CRM.
@@ -69,17 +48,20 @@ For each archaeological event or duration, the minimal required information for 
 |------|------|-------|
 | Thera-Santorini volcano eruption | -2000/-1500 | Egean sea |
 
-## Dimensions
-
 ### What
 
 ### When
 
-The format should be, as possible the **EDTF**[^1] isostandard to record an event or a duration
+The format should be, as possible, the EDTF isostandard to record an event or a duration
 
 ### Where
 
-## CIDOC-CRM
+## Standards and isostandards
+
+### EDTF
+
+EDTF[^1]
+### CIDOC-CRM
 
 CIDOC-CRM[^2]
 
