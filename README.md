@@ -4,9 +4,7 @@
 ---
 
 <p align="center"> 
-  <p style="text-align:center"> example text </p>
 🚧 README page under construction 🚧  
-  
 </p>
 
 ---
