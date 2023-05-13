@@ -5,7 +5,7 @@
 
 <p align="center"> 
   
-🚧 README page under construction 🚧 
+🚧 README page under construction 🚧  
   
 </p>
 
