@@ -38,13 +38,13 @@ inv.papers.df <- data.frame(
            "Dr Martin Hinz, Dr Joe Roe",
            "Dr Stephen Stead",
            "Dr Keith May, Dr James Taylor",
-           "Dr Wolfgang Schmidle, Eymard Fäder",
+           "Dr Wolfgang Schmidle, MA Eymard Fäder",
            "Pr Ryan Shaw, Pr Adam Rabinowitz",
            "Pr Albert Hafner",
            "Dr Bruno Desachy",
-           "Clemens Schmid",
+           "MA Clemens Schmid",
            "Pr Carl P. Lipo, Dr Mark E. Madsen",
-           "Bryony Moody, Pr Caitlin E Buck, Dr Keith May, Pr Thomas Dye",
+           "MA Bryony Moody, Pr Caitlin E Buck, Dr Keith May, Pr Thomas Dye",
            "Dr Florian Thiery, Dr Allard Mees",
            "Pr Bernhard Weninger",
            "Pr Diamantis Panagiotopoulos",
@@ -55,7 +55,7 @@ inv.papers.df <- data.frame(
            "Dr Ronald Visser",
            "Pr Sujit Sahu",
            "Dr David Falk",
-           "Zac McIvor",
+           "MA Zac McIvor",
            "Dr Xavier Rodier",
            "Dr Vasiliki Andreaki, Pr Juan Anton Barceló", 
            "Pr Alberto Belussi, Pr Sara Migliorini"
@@ -64,7 +64,7 @@ inv.papers.df <- data.frame(
             "your recent researches on **Bayesian modelling of radiocarbon dates**",
             "your recent work for the **XRONOS project, open access to chronological data, cross-dating and alignment of multi-resolution chronologies**",
             "your recent work on the **CIDOC-CRM and CRMarchaeo**",
-            "your recent communication at the CAA23 in Amsterdam, and your work on 'The Matrix' particularly its FAIRability",
+            "your recent communication at the CAA23 in Amsterdam, and your work on **'The Matrix' particularly its FAIRability**",
             "your recent communication at the CAA23 in Amsterdam, and your work on the **LOD gazetteer of cultural periods ChronOntology**",
             "your work on the **LOD gazetteer of cultural periods PeriodO**",
             "your interdisciplinary work on archaeology, anthropology and how material culture variability percieved in a high precision dating context (e.g, Swiss lakes, *chaîne opératoire*, dendrochronology) can be compared and integrated to other and looser chronologies",
@@ -74,7 +74,7 @@ inv.papers.df <- data.frame(
             "your recent communication at the CAA23 in Amsterdam: '*Automating chronology construction and archiving (FAIR)ly along the way*'",
             "your work on **Linked Open Temporal Data (LOTD)**",
             "your work on **Correspondance Analysis (seriation)** and **alignment to absolute time-scales**",
-            "your recent oral communication '*How feasible is a new system of Minoan relative chronology?*' during the 'CHRONOS. Stratigraphic Analysis, Pottery Seriation and Radiocarbon Dating in Mediterranean Chronology' conference on the possibility to create a **CIDOC-CRM-based ontology, using the case of the Thera-Santorini volcano eruption, to deal with plurivocity of the dating assumptions, and the FAIR use of chonology building",
+            "your recent oral communication '*How feasible is a new system of Minoan relative chronology?*' during the 'CHRONOS. Stratigraphic Analysis, Pottery Seriation and Radiocarbon Dating in Mediterranean Chronology' conference on the possibility to create a CIDOC-CRM-based ontology, using the case of the Thera-Santorini volcano eruption, to deal with plurivocity of the dating assumptions, and the FAIR use of chonology building",
             "your work on Bayesian modelling of radiocarbon dates",
             "your work on the **Event Date model for archaeomagnetic, thermoluminescence and radiocarbon dates**",
             "your work on **radiocarbon dating and the evidence density estimation method**",
@@ -83,7 +83,7 @@ inv.papers.df <- data.frame(
             "your work on **Bayesian modeling of spatio-temporal data**",
             "your work on deterministic chronological hypothesis testing and automated chronology building. We would be interested in a review of existing software for such aims, such as GroundHog, ChronoLog, etc...",
             "your recent processual work on chronological network analysis, compared with post-processual approaches (cf. J. Fabian's book 'Time and the Other') in indigeneous contexts",
-            "your work on applying the **Peuquet's triad** to archaeological records"
+            "your work on applying the **Peuquet's triad** to archaeological records",
             "your work on assessing chronology through a multi-paradigm approach (combining radiocarbon dates, stratigraphy, dendrochronology, Allen temporal logics) in a context of reusability of methods and data (FAIR)",
             "your recent work on spatio-temporal frameworks for managing archeological data"
             ),
@@ -91,10 +91,13 @@ inv.papers.df <- data.frame(
   Soft.deadline = c("Friday November 17, 2023")
 )
 
-View(inv.papers.df[ , c(2, 3)])
+# View(inv.papers.df[ , c(2, 3)])
+
 ```
 
 * There are `r nrow(inv.papers.df)` invited papers
+
+* Mail object: "Invitation to submit an article for a special issue of Archaeometry on chronological modelling - provisional publication date: June 2024"
 
 \newpage
 
@@ -109,18 +112,20 @@ for(i in seq(1, nrow(inv.papers.df))){
       "
 to: <${inv.papers.df[i, 'email']}>  
 
-Dear ${inv.papers.df[i, 'name']},  
+Dear ${inv.papers.df[i, 'name']}  
   
-We would like to personally invite you to contribute to an (online only) peer-reviewed special issue of the [Archaeometry](https://onlinelibrary.wiley.com/journal/14754754) journal, on the subject of '*Chronology: formal methods and research software*' (for a recent example of a special issue, see [here](https://onlinelibrary.wiley.com/toc/14754754/2022/64/S1)). We were very intrigued by ${inv.papers.df[i, 'topic']}. We were wondering if you would consider a paper on this topic? If you are interested in taking up this invitation, please **let us know by ${inv.papers.df[i, 'Formal.response']}**. If you are unable to undertake this project personally but know someone who might, we would appreciate if you could provide us with their name and contact information. We would also be grateful if you would agree to act as a reviewer for at least one paper in this special issue. 
+We would like to personally invite you to contribute to an (online only) peer-reviewed special issue of the [Archaeometry journal](https://onlinelibrary.wiley.com/journal/14754754), on the subject of '***Chronology: formal methods and research software***' (for a recent example of a special issue, see [here](https://onlinelibrary.wiley.com/toc/14754754/2022/64/S1)). We were very intrigued by ${inv.papers.df[i, 'topic']}. We were wondering if you would consider a paper on this topic? If you are interested in taking up this invitation, please **let us know by ${inv.papers.df[i, 'Formal.response']}**. If you are unable to undertake this project personally but know someone who might, we would appreciate if you could provide us with their name and contact information. We would also be grateful if you would agree to act as a reviewer for at least one paper in this special issue. 
 
-Chronology, the analyse of time, is the backbone of Archaeology. Its study material embraces different disciplines however, and is widely dispersed in time and space. This has led to numerous context-based frameworks, focused on absolute *vs* relative chronology, Prehistory *vs* recent periods, laboratory techniques *vs* cultural approaches, deterministic *vs* statistical methods, and more. The aim of this special issue is to review current practices on formal methods, modelling and research software for chronological data in archaeology. We will invite a series of papers to contribute to various aspects of these matters, including (but not limited to) formal methods, archaeometric dating, Bayesian analysis, stratigraphy, seriation, temporal logics and open-source research software. The papers will also explore multi-paradigm alignment (cross-dating), high-resolution downscaling, low-resolution upscaling of temporal data on a common timeline, multi-resolution alignment (scalability), management of uncertainty and fuzziness, and the incorporation of FAIR policies and isostandards for the reusability of timed data. It is important to note that this special issue is not intended to be a collection of case studies. Instead, it seeks to gather formal perspectives on chronological modelling, review recent methods and avenues of development, and focus on building interoperable chronologies over the long term and at large geographical scales. Please do not hesitate to make contact with us to discuss the potential topic of your contribution in more details.
+Chronology, the analyse of time, is the backbone of Archaeology. Its study material encompasses different disciplines and is widely dispersed in time and space. This has led to numerous context-based frameworks, focused on absolute *vs* relative chronology, Prehistory *vs* recent periods, laboratory techniques *vs* cultural approaches, deterministic *vs* statistical methods, and more. The aim of this special issue is to review current practices on formal methods, modelling and research software for chronological data in archaeology. We will invite a series of papers to contribute to various aspects of these matters, including (but not limited to) archaeometric dating, Bayesian analysis, stratigraphy, seriation, temporal logics and open-source research software. Papers will also explore multi-paradigm alignment (cross-dating), high-resolution downscaling, low-resolution upscaling of temporal data to a common timeline, multi-resolution alignment (scalability), uncertainty and fuzziness management, and the incorporation of FAIR policies and isostandards to foster temporal data reuse. It is important to note that this special issue is not intended to be a collection of case studies. Instead, it seeks to gather formal perspectives on chronological modelling, review recent methods and avenues of development, and focus on building interoperable chronologies over the long term and at large geographical scales. Please do not hesitate to make contact with us to discuss the potential topic of your contribution in more details.
 
 The final **manuscript submission deadline is ${inv.papers.df[i, 'Soft.deadline']}**.
-The provisional publication date for the complete special issue is June 17, 2024.
+The provisional publication date for the complete Archaeometry special issue is June 17, 2024.
 
 We hope you will consider contributing to this edition.
  
 Yours sincerely, 
+
+Thomas Huet & Eythan Levy
 
 \\newpage
 
