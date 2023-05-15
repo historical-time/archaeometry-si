@@ -1,6 +1,6 @@
 ## Submission guidelines
 
-Thank you for your interest in our Archaeometry special online issue on Chronological Modelling.
+Thank you for your interest in our Archaeometry special online issue: ***'Chronology: formal methods and research software'***.
 
 All submissions should be made online via the Archeometry Scholar One portal at https://mc.manuscriptcentral.com/arch. If you do not have an account it is very easy to set one up. Please use your ORCID if possible.
 
@@ -8,11 +8,13 @@ Papers for the Chronological Modelling special issue should be between 4,000 and
 
 Supplementary material which does not need to be typeset or edited can be in any format including PDFs and audio and video files.
 
+We are developing a GitHub repository -- as part of the GitHub organization 'Representing Historical Time' -- dedicated to this SI: https://github.com/historical-time/archaeometry-si. All authors willing to share samples of their data, to work on the FAIR principles by example, are welcome (it is not mandatory). Let us know if you would like to be part of the 'Representing Historical Time' organization and contribute (data samples, or other), we will come back to you on this specific subject.
+
 Archaeometry has a 'mandates data' policy which means that we require all the data which supports your paper to be included, ideally as supplementary material or a link to the data. See https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html for further information. We can include full tables and further details of methodology, control data, coding information and information on laboratory equipment.  As you submit your paper please include a data statement which tells readers where to find the supporting data.
 
 Regarding Open Access, Archaeometry is a hybrid journal. Authors can pay a processing charge for their paper to be fully open access as soon as it is published (gold Open Access) the processing charge for this is: $3,190 £2,160 €2,620, or opt for Green Open Access whereby a PDF of the paper as accepted can be deposited in a University or similar repository with a one year embargo period.
 Your institution may already have an agreement in place which covers your paper’s Open Access fee without you needing to do anything, see here https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/affiliation-policies-payments/institutional-funder-payments.html 
 
-Papers should be submitted in the first instance by  Insert date. After reviewing you will be asked for any revisions that have been advised and should submit these as soon as possible.
+Papers should be submitted in the first instance by **Friday November 17, 2023**. After reviewing you will be asked for any revisions that have been advised and should submit these as soon as possible.
 
 The special issue is scheduled for April 2024?  However, papers will be published in Early View as they are accepted and are then a published citable paper.
