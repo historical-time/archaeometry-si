@@ -9,9 +9,9 @@ inv.papers.df <- data.frame(
   email = c("erc62@cam.ac.uk",
             "christopher.ramsey@arch.ox.ac.uk",
             "martin.hinz@iaw.unibe.ch, joseph.roe@iaw.unibe.ch",
-            "steadsds@outlook.com",
+            "albert.hafner@unibe.ch",
             "Keith.May@historicengland.org.uk, james.s.taylor@york.ac.uk",
-            "wolfgang.schmidle@dainst.de, faedere@uni-koeln.de",
+            "wolfgang.schmidle@uni-koeln.de, faedere@uni-koeln.de",
             "ryanshaw@unc.edu, arabinow@utexas.edu",
             "albert.hafner@yale.edu",
             "Bruno.Desachy@univ-paris1.fr",
@@ -91,7 +91,7 @@ inv.papers.df <- data.frame(
   Soft.deadline = c("Friday November 17, 2023")
 )
 
-# View(inv.papers.df[ , c(2, 3)])
+# openxlsx::write.xlsx(inv.papers.df[ , c(2, 1)], file = "C:/Rprojects/histime-archaeometry-si/docs/process_invitations.xlsx")
 
 ```
 
