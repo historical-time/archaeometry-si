@@ -16,6 +16,8 @@
 
 ## Timeline
 
+click on ↔️ to enlarge the time table
+
 ```mermaid
 gantt
     title Archaeometry Special Issue
