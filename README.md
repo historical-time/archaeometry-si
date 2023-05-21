@@ -28,8 +28,9 @@ gantt
     Deadline short paper description : milestone, m0, 2023-07-18, 1d
     section Editor feedback
     Editor feedback letter           : milestone, m1, 2023-07-21, 1d
-    section Submission deadline
-    Deadline                         : milestone, m9, 2023-11-17, 1d %% Soft deadline
+    section Paper submission
+    Paper writing                    : active, a0, 2023-06-17, 2023-11-17
+    Submission deadline              : milestone, m9, 2023-11-17, 1d %% Soft deadline
     %% Hard deadline                 : milestone, m9, 2023-11-30, 1d %% Hard deadline
     section Reviewing
     Reviewing process                  : active, a1, 2023-11-17, 2024-01-31
