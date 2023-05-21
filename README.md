@@ -23,7 +23,8 @@ gantt
     title Archaeometry Special Issue
     dateFormat  YYYY-MM-DD
     section Invited Papers
-    Formal invite                    : milestone, m0, 2023-05-17, 1d
+    Formal invitation                 : milestone, m0, 2023-05-17, 1d
+    Authors' decision to contribute : active, a0, 2023-05-17, 2023-06-17
     Formal response                  : milestone, m0, 2023-06-17, 1d
     %% section Short paper description
     %% Request short paper description  : milestone, m0, 2023-06-19, 1d
@@ -37,10 +38,10 @@ gantt
     Reviewing process                  : active, a1, 2023-11-17, 2024-01-31
     Submission of reviews to editors   : milestone, m1, 2024-01-31, 1d
     section Reviews and Editor decision
-    Editors' decision making              : active, a1, 2024-01-31, 2024-02-16
+    Editors' decision making              : active, a2, 2024-01-31, 2024-02-16
     Reviews and decision sent to authors  : milestone, m2, 2024-02-16, 1d
     section Revision
-    Authors review their papers       : active, a1, 2024-02-16, 2024-04-29
+    Authors review their papers       : active, a3, 2024-02-16, 2024-04-29
     Deadline for revised papers       : milestone, m2, 2024-04-29, 1d
     section Proofs
     Proofs to authors                : milestone, m2, 2024-05-17, 1d
