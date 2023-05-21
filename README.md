@@ -38,7 +38,8 @@ gantt
     Editor decision                     : milestone, m2, 2024-02-16, 1d
     Reviews and decision sent to authors: milestone, m2, 2024-02-16, 1d
     section Revision
-    Deadline for revised papers      : milestone, m2, 2024-04-29, 1d
+    Authors review their papers       : active, a1, 2024-02-16, 2024-04-29
+    Deadline for revised papers       : milestone, m2, 2024-04-29, 1d
     section Proofs
     Proofs to authors                : milestone, m2, 2024-05-17, 1d
     Revised proofs                   : milestone, m2, 2024-05-31, 1d
