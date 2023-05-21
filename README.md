@@ -25,10 +25,10 @@ gantt
     section Invited Papers
     Formal invite                    : milestone, m0, 2023-05-17, 1d
     Formal response                  : milestone, m0, 2023-06-17, 1d
-    section Short paper description
-    Request short paper description  : milestone, m0, 2023-06-19, 1d
-    Deadline short paper description : milestone, m0, 2023-07-18, 1d
-    Editor feedback letter           : milestone, m1, 2023-07-21, 1d
+    %% section Short paper description
+    %% Request short paper description  : milestone, m0, 2023-06-19, 1d
+    %% Deadline short paper description : milestone, m0, 2023-07-18, 1d
+    %% Editor feedback letter           : milestone, m1, 2023-07-21, 1d
     section Paper submission
     Paper writing                    : active, a0, 2023-06-17, 2023-11-17
     Submission deadline              : milestone, m9, 2023-11-17, 1d %% Soft deadline
