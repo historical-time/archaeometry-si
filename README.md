@@ -44,4 +44,4 @@ gantt
 ## Data samples
 > Use of standards to share dates between different research projects
 
-We invite authors to upload samples of their data to this GitHub: [data-samples/](https://github.com/historical-time/data-samples#examples-of-historical-time-representation). The aim is to align heterogeneous time data used in the special issue using [CIDOC-CRM](https://github.com/historical-time/projects-tools-standards/tree/main/standards/cidoc-crm), [EDTF](https://github.com/historical-time/projects-tools-standards/tree/main/standards/edtf) and any convenient standards.
+We invite authors to upload samples of their data to this GitHub repository: [data-samples/](https://github.com/historical-time/data-samples#examples-of-historical-time-representation). The aim is to align heterogeneous time data used in the special issue using [CIDOC-CRM](https://github.com/historical-time/projects-tools-standards/tree/main/standards/cidoc-crm), [EDTF](https://github.com/historical-time/projects-tools-standards/tree/main/standards/edtf) -- or any convenient standards -- and possibly to publish a collective paper on this topic
