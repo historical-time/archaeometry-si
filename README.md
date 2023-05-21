@@ -34,10 +34,9 @@ gantt
     section Reviewing
     Reviewing process                  : active, a1, 2023-11-17, 2024-01-31
     Submission of reviews to editors   : milestone, m1, 2024-01-31, 1d
-    section 1st Editor decision
+    section Reviews and Editor decision
     Editors' decision making              : active, a1, 2024-01-31, 2024-02-16
-    Editors' decision                     : milestone, m2, 2024-02-16, 1d
-    Reviews and decision sent to authors: milestone, m2, 2024-02-16, 1d
+    Reviews and decision sent to authors  : milestone, m2, 2024-02-16, 1d
     section Revision
     Authors review their papers       : active, a1, 2024-02-16, 2024-04-29
     Deadline for revised papers       : milestone, m2, 2024-04-29, 1d
