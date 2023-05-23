@@ -1,6 +1,6 @@
 ## Submission guidelines
 
-Thank you for your interest in our Archaeometry online special issue: ***'Chronology: formal methods and research software'***.
+Thank you for your interest in our Archaeometry online special issue: ***'Chronology: formal methods and research software'*** (working title).
 
 All submissions should be made online via the Archeometry Scholar One portal at https://mc.manuscriptcentral.com/arch. If you do not have an account, it is very easy to set one up. Please use your ORCID if possible.
 
