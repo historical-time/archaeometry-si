@@ -2,7 +2,7 @@
 
 Thank you for your interest in our Archaeometry online special issue: ***'Chronology: formal methods and research software'*** (working title).
 
-All submissions should be made online via the Archeometry Scholar One portal at https://mc.manuscriptcentral.com/arch. If you do not have an account, it is very easy to set one up. Please use your ORCID if possible.
+All submissions should be made online via the Archaeometry Scholar One portal at https://mc.manuscriptcentral.com/arch. If you do not have an account, it is very easy to set one up. Please use your ORCID if possible.
 
 Papers should be between 4,000 and 9,000 words. As this is an online special issue, you can include as many additional files such as figures, tables, maps and appendices. Any images which are part of the main paper should be submitted as individual files and not included in the main document, use the captions to show where they should be placed in the published paper. These files should all be submitted in an editable format so that they can be resized to fit the published paper. This includes `.doc`, `.docx`, `.xls`, `.xlsx`, `.jpg`, `.rtf`, `.tex` but should not include PDFs. Except for the above instructions, your manuscript should conform to the [journal's author guidelines](https://onlinelibrary.wiley.com/page/journal/14754754/homepage/forauthors.html).
 
@@ -20,5 +20,5 @@ Papers should be submitted in the first instance by Friday **November 17, 2023**
 The full special issue is scheduled for publication on Monday **June 17, 2024** (see [timetable](https://github.com/historical-time/archaeometry-si#timeline)). However, papers will be published in Early View as they are accepted and will then be citable as published papers.
 
 [^1]: To join the 'Representing Historical Time' organization you will need a [GitHub account](https://github.com/). You should then send us your GitHub username, and we will be invited to join the organization.
-[^2]: Findable, Accessibles, Interoperable, Reusable.
+[^2]: Findable, Accessible, Interoperable, Reusable.
 
