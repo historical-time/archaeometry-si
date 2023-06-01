@@ -1,5 +1,5 @@
-# Archaeometry Special Issue
-> Publication of an Archaeometry Special Issue on Chronological Modeling
+# *Archaeometry* Special Issue
+> Publication of an [Archaeometry](https://onlinelibrary.wiley.com/page/journal/14754754/homepage/productinformation.html) Special Issue on Chronological Modeling
 
 - [time table](https://github.com/historical-time/archaeometry-si#timeline)
 - [data samples](https://github.com/historical-time/archaeometry-si#data-samples)
