@@ -14,8 +14,8 @@ gantt
     dateFormat  YYYY-MM-DD
     section Invited Papers
     Editors' formal invitation                 : milestone, m0, 2023-05-17, 1d
-    Authors' decision to contribute : active, a0, 2023-05-17, 2023-06-17
-    Authors' formal response                  : milestone, m0, 2023-06-17, 1d
+    Authors' decision to contribute : active, a0, 2023-05-17, 2023-06-19
+    Authors' formal response                  : milestone, m0, 2023-06-19, 1d
     %% section Short paper description
     %% Request short paper description  : milestone, m0, 2023-06-19, 1d
     %% Deadline short paper description : milestone, m0, 2023-07-18, 1d
