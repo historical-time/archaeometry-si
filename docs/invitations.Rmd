@@ -33,7 +33,7 @@ inv.papers.df <- data.frame(
             "vasilandreaki@hotmail.gr, JuanAntonio.Barcelo@uab.cat",
             "alberto.belussi@univr.it, sara.migliorini@univr.it",
             "alex.bayliss@HistoricEngland.org.uk, peter.marshall@HistoricEngland.org.uk"
-            ),
+  ),
   name = c("Dr Enrico Crema",
            "Pr Christopher Bronk Ramsey",
            "Dr Martin Hinz, Dr Joe Roe",
@@ -61,7 +61,35 @@ inv.papers.df <- data.frame(
            "Dr Vasiliki Andreaki, Pr Juan Anton Barceló", 
            "Pr Alberto Belussi, Pr Sara Migliorini",
            "Pr Alex Bayliss, Dr Peter Marshall"
-           ),
+  ),
+  reminder = c(0,
+               1,
+               1,
+               1,
+               1,
+               1,
+               0,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1,
+               0,
+               1,
+               0,
+               1,
+               0,
+               1,
+               0,
+               1,
+               1,
+               0, 
+               1,
+               0
+  ),
   topic = c("your recent researches on **temporal uncertainty** (aoristic analysis, ...)",
             "your recent researches on **Bayesian modelling of radiocarbon dates**",
             "your recent work for the **XRONOS project, open access to chronological data, cross-dating and alignment of multi-resolution chronologies**",
@@ -89,35 +117,35 @@ inv.papers.df <- data.frame(
             "your work on assessing chronology through a multi-paradigm approach (combining radiocarbon dates, stratigraphy, dendrochronology, Allen temporal logics) in a context of reusability of methods and data (FAIR)",
             "your recent work on spatio-temporal frameworks for managing archeological data",
             "your work on radiocarbon dating and dendrochronology"
-            ),
-    topic_1 = c("temporal uncertainty (aoristic analysis, ...)",
-            "Bayesian modelling of radiocarbon dates",
-            "XRONOS project, open access to chronological data, cross-dating and alignment of multi-resolution chronologies",
-            "CIDOC-CRM and CRMarchaeo",
-            "'The Matrix' particularly its FAIRability**",
-            "LOD gazetteer of cultural periods ChronOntology",
-            "LOD gazetteer of cultural periods PeriodO",
-            "archaeology, anthropology and how material culture variability percieved in a high precision dating context (e.g, Swiss lakes, *chaîne opératoire*, dendrochronology) can be compared and integrated to other and looser chronologies",
-            "stratigraphy, with an overview (news, trends and perspectives) of existing projects and software on this subject",
-            "visual semiotics for multi-paradigm and multi-scale changes",
-            "cultural transmission and phylogenetic approaches",
-            "automating chronology construction and FAIR archiving long the way*'",
-            "Linked Open Temporal Data (LOTD)",
-            "Correspondance Analysis (seriation) and alignment to absolute time-scales",
-            "the possibility to create a CIDOC-CRM-based ontology, using the case of the Thera-Santorini volcano eruption, to deal with plurivocity of the dating assumptions, and the FAIR use of chonology building",
-            "Bayesian modelling of radiocarbon dates",
-            "Event Date model for archaeomagnetic, thermoluminescence and radiocarbon dates",
-            "radiocarbon dating and the evidence density estimation method",
-            "Bayesian chronology building",
-            "dendrochronology",
-            "Bayesian modeling of spatio-temporal data",
-            "deterministic chronological hypothesis testing and automated chronology building",
-            "processual work on chronological network analysis, compared with post-processual approaches",
-            "Peuquet's triad application to archaeological records",
-            "assessing chronology through a multi-paradigm approach in a context of reusability of methods and data (FAIR)",
-            "spatio-temporal frameworks for managing archeological data",
-            "radiocarbon dating and dendrochronology"
-            ),
+  ),
+  topic_1 = c("temporal uncertainty (aoristic analysis, ...)",
+              "Bayesian modelling of radiocarbon dates",
+              "XRONOS project, open access to chronological data, cross-dating and alignment of multi-resolution chronologies",
+              "CIDOC-CRM and CRMarchaeo",
+              "'The Matrix' particularly its FAIRability**",
+              "LOD gazetteer of cultural periods ChronOntology",
+              "LOD gazetteer of cultural periods PeriodO",
+              "archaeology, anthropology and how material culture variability percieved in a high precision dating context (e.g, Swiss lakes, *chaîne opératoire*, dendrochronology) can be compared and integrated to other and looser chronologies",
+              "stratigraphy, with an overview (news, trends and perspectives) of existing projects and software on this subject",
+              "visual semiotics for multi-paradigm and multi-scale changes",
+              "cultural transmission and phylogenetic approaches",
+              "automating chronology construction and FAIR archiving long the way*'",
+              "Linked Open Temporal Data (LOTD)",
+              "Correspondance Analysis (seriation) and alignment to absolute time-scales",
+              "the possibility to create a CIDOC-CRM-based ontology, using the case of the Thera-Santorini volcano eruption, to deal with plurivocity of the dating assumptions, and the FAIR use of chonology building",
+              "Bayesian modelling of radiocarbon dates",
+              "Event Date model for archaeomagnetic, thermoluminescence and radiocarbon dates",
+              "radiocarbon dating and the evidence density estimation method",
+              "Bayesian chronology building",
+              "dendrochronology",
+              "Bayesian modeling of spatio-temporal data",
+              "deterministic chronological hypothesis testing and automated chronology building",
+              "processual work on chronological network analysis, compared with post-processual approaches",
+              "Peuquet's triad application to archaeological records",
+              "assessing chronology through a multi-paradigm approach in a context of reusability of methods and data (FAIR)",
+              "spatio-temporal frameworks for managing archeological data",
+              "radiocarbon dating and dendrochronology"
+  ),
   Formal.response = c("Monday June 17, 2023"),
   Soft.deadline = c("Friday November 17, 2023")
 )
@@ -126,22 +154,17 @@ inv.papers.df <- data.frame(
 
 ```
 
-* There are `r nrow(inv.papers.df)` invited papers
-
-* Mail object: "Invitation to submit an article for a special issue of Archaeometry on chronological modelling - provisional publication date: June 2024"
-
-\newpage
 
 
-```{r, results = 'asis', echo = FALSE}
+```{r invitation, results = 'asis', echo = FALSE, eval = FALSE}
 
 inv.papers.df <- inv.papers.df[nrow(inv.papers.df), ] # filter to get the last entry
 
 for(i in seq(1, nrow(inv.papers.df))){
   # markdown syntax
   cat(i, ") <br>",
-    stringr::str_interp(
-      "
+      stringr::str_interp(
+        "
 to: <${inv.papers.df[i, 'email']}>  
 
 Dear ${inv.papers.df[i, 'name']}  
@@ -163,9 +186,44 @@ Thomas Huet & Eythan Levy
 
 
 "
-    )
+      )
   )
 }
 
 ```
 
+
+```{r invitation.reminder, results = 'asis', echo = FALSE, eval = TRUE}
+
+# inv.papers.df <- inv.papers.df[nrow(inv.papers.df), ] # filter to get the last entry
+inv.papers.df.remind <- inv.papers.df[inv.papers.df$reminder == 1, ] # filter to get only the papers without responses
+
+for(i in seq(1, nrow(inv.papers.df.remind))){
+  # markdown syntax
+  cat(stringr::str_interp(
+        "
+${i})  
+**to**: <${inv.papers.df.remind[i, 'email']}>  
+**object**: Invitation to submit an article for a special issue of Archaeometry on chronological modelling - reminder
+
+Dear ${inv.papers.df.remind[i, 'name']}  
+
+You have been invited to submit an article for a special issue (online only) of the refereed [Archaeometry journal](https://onlinelibrary.wiley.com/journal/14754754) on the theme '*Chronology: formal methods and research software*'. We have specifically requested your expertise in preparing an article centered around ${inv.papers.df.remind[i, 'topic_1']}. However, we are open to discussing alternative topics if you have any other proposals in mind. Currently, the special issue has already received indications of intent to submit papers covering these chronological areas (list hosted [here](https://github.com/historical-time/archaeometry-si/issues/1#issue-1733704179)). 
+
+The deadline for submitting your manuscript is set for ${inv.papers.df[i, 'Soft.deadline']}. The anticipated publication date for the complete special issue of Archaeometry is 17 June 2024. Please note that papers will be published in Early View as soon as they are accepted, making them citable as published papers.
+
+
+We hope you will consider contributing to this edition. We are readily available to address any queries you may have regarding the format (Open Access, Article Processing Charge, etc.) or the content of this special issue.
+
+Yours sincerely,
+
+Thomas Huet & Eythan Levy
+
+\\newpage
+
+"
+      )
+  )
+}
+
+```
