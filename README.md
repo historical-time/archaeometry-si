@@ -2,6 +2,7 @@
 > Publication of an [*Archaeometry*](https://onlinelibrary.wiley.com/page/journal/14754754/homepage/productinformation.html) Special Issue on Chronological Modeling
 
 - [time table](https://github.com/historical-time/archaeometry-si#timeline)
+- [submission guidelines](https://github.com/historical-time/archaeometry-si/tree/main#submission-guidelines)
 - [data samples](https://github.com/historical-time/archaeometry-si#data-samples)
 
 ## Timeline
@@ -43,7 +44,7 @@ gantt
 
 ## Submission guidelines
 
-Thank you for your interest in our Archaeometry online special issue: ***'Chronology: formal methods and research software'*** (working title).
+Thank you for your interest in our Archaeometry online special issue: ***'Chronology: formal methods and research software in Archeaology'*** (working title).
 
 All submissions should be made online via the Archaeometry Scholar One portal at https://mc.manuscriptcentral.com/arch. If you do not have an account, it is very easy to set one up. Please use your ORCID if possible.
 
@@ -60,7 +61,7 @@ Your institution may already have an agreement in place which covers your paperâ
 
 Papers should be submitted in the first instance by Friday **November 17, 2023**. All papers will be reviewed by at least two reviewers. Reviews and decision of acceptance will be sent to authors by Friday **February 16, 2024**. Revised papers will be due by Monday **April 29, 2024**.
 
-The full special issue is scheduled for publication on Monday **June 17, 2024** (see [timetable](https://github.com/historical-time/archaeometry-si#timeline)). However, papers will be published in Early View as they are accepted and will then be citable as published papers.
+The full special issue is scheduled for publication on Monday **June 17, 2024** (see [timetable](#timeline)). However, papers will be published in Early View as they are accepted and will then be citable as published papers.
 
 ## Data samples
 
