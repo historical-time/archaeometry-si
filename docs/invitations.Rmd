@@ -9,11 +9,11 @@ inv.papers.df <- data.frame(
   email = c("erc62@cam.ac.uk",
             "christopher.ramsey@arch.ox.ac.uk",
             "martin.hinz@iaw.unibe.ch, joseph.roe@iaw.unibe.ch",
-            "albert.hafner@unibe.ch",
+            "steadsds@outlook.com",
             "Keith.May@historicengland.org.uk, james.s.taylor@york.ac.uk",
             "wolfgang.schmidle@uni-koeln.de, faedere@uni-koeln.de",
             "ryanshaw@unc.edu, arabinow@utexas.edu",
-            "albert.hafner@yale.edu",
+            "albert.hafner@unibe.ch",
             "Bruno.Desachy@univ-paris1.fr",
             "clemens_schmid@eva.mpg.de",
             "clipo@binghamton.edu, mark@madsenlab.org",
@@ -208,12 +208,11 @@ ${i})
 
 Dear ${inv.papers.df.remind[i, 'name']}  
 
-You have been invited to submit an article for a special issue (online only) of the refereed [Archaeometry journal](https://onlinelibrary.wiley.com/journal/14754754) on the theme '*Chronology: formal methods and research software*'. We have specifically requested your expertise in preparing an article centered around ${inv.papers.df.remind[i, 'topic_1']}. However, we are open to discussing alternative topics if you have any other proposals in mind. Currently, the special issue has already received indications of intent to submit papers covering these chronological areas (list hosted [here](https://github.com/historical-time/archaeometry-si/issues/1#issue-1733704179)). 
+**You have been invited to submit an article for a special issue of the peer-reviewed [Archaeometry journal](https://onlinelibrary.wiley.com/journal/14754754) on the theme '*Chronology: formal methods and research software*'**. We have requested your expertise in preparing an article centered around ${inv.papers.df.remind[i, 'topic_1']}. However, we are open to discussing alternative topics if you have any other proposals in mind. Currently, the special issue has already received several indications of intent to submit papers covering a variety of chronological domains. We would be grateful if you could inform us of your decision to take part in this special issue by **sending us a reply by next Monday 19 June** at the latest.
 
 The deadline for submitting your manuscript is set for ${inv.papers.df[i, 'Soft.deadline']}. The anticipated publication date for the complete special issue of Archaeometry is 17 June 2024. Please note that papers will be published in Early View as soon as they are accepted, making them citable as published papers.
 
-
-We hope you will consider contributing to this edition. We are readily available to address any queries you may have regarding the format (Open Access, Article Processing Charge, etc.) or the content of this special issue.
+We hope you will consider contributing to this edition. We are available to address any queries you may have regarding the format (Open Access, Article Processing Charge, etc.) or the content of this special issue.
 
 Yours sincerely,
 
