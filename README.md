@@ -14,32 +14,32 @@ gantt
     title Archaeometry Special Issue
     dateFormat  YYYY-MM-DD
     section Invited Papers
-    Editors' formal invitation                 : milestone, m0, 2023-05-17, 1d
+    Editors' formal invitation                 : active, m0, 2023-05-17, 1d
     Authors' decision to contribute : active, a0, 2023-05-17, 2023-06-19
-    Authors' formal response                  : milestone, m0, 2023-06-19, 1d
+    Authors' formal response                  : active, m0, 2023-06-19, 1d
     %% section Short paper description
     %% Request short paper description  : milestone, m0, 2023-06-19, 1d
     %% Deadline short paper description : milestone, m0, 2023-07-18, 1d
     %% Editor feedback letter           : milestone, m1, 2023-07-21, 1d
     section Paper submission
     Paper writing                    : active, a0, 2023-06-17, 2023-11-17
-    Submission deadline              : milestone, m9, 2023-11-17, 1d %% Soft deadline
-    %% Hard deadline                 : milestone, m9, 2023-11-30, 1d %% Hard deadline
+    Submission deadline              : active, m9, 2023-11-17, 1d %% Soft deadline
+    %% Hard deadline                 : active, m9, 2023-11-30, 1d %% Hard deadline
     section Reviewing
     Reviewing process                  : active, a1, 2023-11-17, 2024-01-31
-    Submission of reviews to editors   : milestone, m1, 2024-01-31, 1d
+    Submission of reviews to editors   : active, m1, 2024-01-31, 1d
     section Reviews and Editor decision
     Editors' decision making              : active, a2, 2024-01-31, 2024-02-16
-    Reviews and decision sent to authors  : milestone, m2, 2024-02-16, 1d
+    Reviews and decision sent to authors  : active, m2, 2024-02-16, 1d
     section Revision
     Authors review their papers       : active, a3, 2024-02-16, 2024-04-29
-    Deadline for revised papers       : milestone, m2, 2024-04-29, 1d
+    Deadline for revised papers       : active, m2, 2024-04-29, 1d
     section Proofs
-    Proofs to authors                : milestone, m2, 2024-05-17, 1d
-    Revised proofs                   : milestone, m2, 2024-05-31, 1d
+    Proofs to authors                : active, m2, 2024-05-17, 1d
+    Revised proofs                   : active, m2, 2024-05-31, 1d
     section Issue
-    Issue compilation                : milestone, m2, 2024-06-03, 1d
-    Issue published                  : milestone, m2, 2024-06-17, 1d
+    Issue compilation                : active, m2, 2024-06-03, 1d
+    Issue published                  : active, m2, 2024-06-17, 1d
 ```
 
 ## Submission guidelines
