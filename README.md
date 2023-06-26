@@ -35,7 +35,7 @@ gantt
     Authors review their papers       : active, a4, 2024-02-16, 2024-04-29
     Deadline for revised papers       : active, a4, 2024-04-29, 1d
     section Proofs
-    Proofs to authors                : active, a5, 2024-05-17, 1d
+    Proofs to authors                : active, a5, 2024-05-17, 14d
     Revised proofs                   : active, a5, 2024-05-31, 1d
     section Issue
     Issue compilation                : active, a6, 2024-06-03, 14d
