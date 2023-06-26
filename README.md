@@ -7,7 +7,7 @@
 
 ## Timeline
 
-(click on ↔️ to enlarge the time table)
+(click on the top right ↔️ to enlarge the time table)
 
 ```mermaid
 gantt
